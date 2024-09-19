@@ -64,7 +64,7 @@ def predict_Vital_status(age, sex, histologic_type, grade,
     return class_label, probability
 
 # 创建Web应用程序
-st.title(“3-year survival of EM patients based on XGBoost")
+st.title("3-year survival of EM patients based on XGBoost")
 st.sidebar.write("Variables")
 
 age = st.sidebar.number_input("Age", min_value=0, max_value=99, step=1)  # 允许用户输入具体数值
